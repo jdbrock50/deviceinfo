@@ -1,1 +1,1 @@
-web: gunicorn devicedetect.wsgi
+web: gunicorn devicedetect.wsgi:application
